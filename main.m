@@ -1,4 +1,16 @@
-%%
+%*********************************************************************
+%**    Implementation of the Multi-Ellipsoidal VB algorithm         **
+%**    based on the article                                         **
+%**    "Multi-Ellipsoidal Extended Target Tracking with             **
+%**     Variational Bayes Inference"                                **
+%**    This article is accepted to IEEE-TSP.                        **
+%**    Barkın Tuncer, Umut Orguner, and Emre Özkan                  **
+%**    Further information:                                         **
+%**    https://github.com/Metu-Sensor-Fusion-Lab                    **
+%**    http://sensorfusion.eee.metu.edu.tr/                         **
+%**                                                                 **
+%*********************************************************************
+
 close all
 clear
 
@@ -90,4 +102,3 @@ end
 %pos = get(h,'Position');
 %set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
 %print(h,'LidarFigure','-dpdf','-r0')
-
